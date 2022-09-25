@@ -3,6 +3,9 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+For linux users use command below to clone the repository:
+sudo git clone https://github.com/pramodd12321/blog_project.git
+
 Things you may want to cover:
 
 * Ruby version = 2.7.6
