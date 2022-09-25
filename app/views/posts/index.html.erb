@@ -1,0 +1,30 @@
+<% content_for :page_title, "Blog Project Posts" %>
+
+
+<h1 class="title"> Blog Index </h1>
+
+<section class="section">
+    <div class="container">
+        <% @posts.each do |post| %>
+            <div class="card" style="margin-top: 20px;">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4"> <%= link_to post.title, post %></p>
+                        </div> 
+                    </div>
+
+                    <div class="content">
+                        <%= post.content %>
+                    </div>
+
+                    <div class="comment-count">
+		    	        <span class="tag is-rounded"><%= post.comments.count %> comments </span>
+		            </div>
+
+                </div>
+            </div>
+    </div>
+    <% end %>
+    </div>
+</section>
