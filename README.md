@@ -5,15 +5,21 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version = 2.7.6
 
-* System dependencies
+* System dependencies:
+  -bulma-rails = 0.9.3
+  -simple_form = 5.1
+  -guard = 2.18
+  -better_errors = 2.9.1
+  -rails = 7.0.4
+  -sqlite3 = 1.4
+  -turbo-rails
 
 * Configuration
 
-* Database creation
-
 * Database initialization
+  -rails db:migrate
 
 * How to run the test suite
 
